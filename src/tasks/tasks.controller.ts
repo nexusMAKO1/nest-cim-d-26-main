@@ -13,7 +13,7 @@ import { Task } from './models/task.model';
 
 @Controller('tasks')
 export class TasksController {
-  constructor(private taskSer: TasksService) {}
+  constructor(private taskSer: TasksService) { }
 
   @Get('')
   chercherTousLesTasks() {
